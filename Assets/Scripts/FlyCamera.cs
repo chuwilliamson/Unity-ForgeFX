@@ -4,19 +4,13 @@ public class FlyCamera : MonoBehaviour
 {
     [SerializeField] private bool isRotating;
     private readonly float _mainSpeed = 100.0f; //regular speed
-    private float _rotationY; 
+    private float _rotationY;
 
     private void Update()
     {
-        if (Input.GetMouseButtonDown(1))
-        {
-            isRotating = true;
-        }
+        if (Input.GetMouseButtonDown(1)) isRotating = true;
 
-        if (Input.GetMouseButtonUp(1))
-        {
-            isRotating = false;
-        }
+        if (Input.GetMouseButtonUp(1)) isRotating = false;
 
         if (isRotating)
         {
