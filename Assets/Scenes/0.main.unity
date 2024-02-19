@@ -128,12 +128,28 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 6302566642244029272, guid: 37808e2c5d05c894bb80afb87f9a9fb2, type: 3}
   m_PrefabInstance: {fileID: 984795484}
   m_PrefabAsset: {fileID: 0}
---- !u!23 &303564718 stripped
-MeshRenderer:
-  m_CorrespondingSourceObject: {fileID: 6761017822005390294, guid: 37808e2c5d05c894bb80afb87f9a9fb2, type: 3}
-  m_PrefabInstance: {fileID: 984795484}
+--- !u!135 &303564723
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &303564720
+  m_GameObject: {fileID: 303564716}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 2.772234
+  m_Center: {x: -0.009453718, y: -0.06303133, z: 1.8314022}
+--- !u!114 &303564724
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -142,42 +158,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 303564716}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Script: {fileID: 11500000, guid: 68be24c208a4a4e438e4cfb2279e9217, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Delegates:
-  - eventID: 0
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 303564718}
-          m_TargetAssemblyTypeName: UnityEngine.Renderer, UnityEngine
-          m_MethodName: set_material
-          m_Mode: 2
-          m_Arguments:
-            m_ObjectArgument: {fileID: 2100000, guid: 14b881e978318014ba6ae8aa1d399f66, type: 2}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Material, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-  - eventID: 1
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 303564718}
-          m_TargetAssemblyTypeName: UnityEngine.Renderer, UnityEngine
-          m_MethodName: set_material
-          m_Mode: 2
-          m_Arguments:
-            m_ObjectArgument: {fileID: 2100000, guid: 277dee0df735df44f96fa2ea9517cd5c, type: 2}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Material, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
+  oldMaterial: {fileID: 2100000, guid: 277dee0df735df44f96fa2ea9517cd5c, type: 2}
+  newMaterial: {fileID: 2100000, guid: 14b881e978318014ba6ae8aa1d399f66, type: 2}
 --- !u!1 &388518633
 GameObject:
   m_ObjectHideFlags: 0
@@ -277,12 +262,28 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 9002709990720851058, guid: 37808e2c5d05c894bb80afb87f9a9fb2, type: 3}
   m_PrefabInstance: {fileID: 984795484}
   m_PrefabAsset: {fileID: 0}
---- !u!23 &471490519 stripped
-MeshRenderer:
-  m_CorrespondingSourceObject: {fileID: 4871032787788228864, guid: 37808e2c5d05c894bb80afb87f9a9fb2, type: 3}
-  m_PrefabInstance: {fileID: 984795484}
+--- !u!135 &471490524
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &471490521
+  m_GameObject: {fileID: 471490517}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 2.5477715
+  m_Center: {x: 0.00000032763504, y: -0.0049254694, z: 1.3352895}
+--- !u!114 &471490525
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -291,42 +292,23 @@ MonoBehaviour:
   m_GameObject: {fileID: 471490517}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Script: {fileID: 11500000, guid: 68be24c208a4a4e438e4cfb2279e9217, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Delegates:
-  - eventID: 0
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 471490519}
-          m_TargetAssemblyTypeName: UnityEngine.Renderer, UnityEngine
-          m_MethodName: set_material
-          m_Mode: 2
-          m_Arguments:
-            m_ObjectArgument: {fileID: 2100000, guid: 14b881e978318014ba6ae8aa1d399f66, type: 2}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Material, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-  - eventID: 1
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 471490519}
-          m_TargetAssemblyTypeName: UnityEngine.Renderer, UnityEngine
-          m_MethodName: set_material
-          m_Mode: 2
-          m_Arguments:
-            m_ObjectArgument: {fileID: 2100000, guid: 277dee0df735df44f96fa2ea9517cd5c, type: 2}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Material, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
+  oldMaterial: {fileID: 2100000, guid: 277dee0df735df44f96fa2ea9517cd5c, type: 2}
+  newMaterial: {fileID: 2100000, guid: 14b881e978318014ba6ae8aa1d399f66, type: 2}
+--- !u!114 &471490526
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 471490517}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ccce01767562f0442ab9ef2d31433765, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &785903856
 GameObject:
   m_ObjectHideFlags: 0
@@ -437,37 +419,84 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 2532119198470598175, guid: 37808e2c5d05c894bb80afb87f9a9fb2, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 984795493}
+      addedObject: {fileID: 984795497}
+    - targetCorrespondingSourceObject: {fileID: 2532119198470598175, guid: 37808e2c5d05c894bb80afb87f9a9fb2, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 984795496}
+    - targetCorrespondingSourceObject: {fileID: 2532119198470598175, guid: 37808e2c5d05c894bb80afb87f9a9fb2, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 984795498}
     - targetCorrespondingSourceObject: {fileID: 9002709990720851058, guid: 37808e2c5d05c894bb80afb87f9a9fb2, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 471490521}
+      addedObject: {fileID: 471490525}
+    - targetCorrespondingSourceObject: {fileID: 9002709990720851058, guid: 37808e2c5d05c894bb80afb87f9a9fb2, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 471490524}
+    - targetCorrespondingSourceObject: {fileID: 9002709990720851058, guid: 37808e2c5d05c894bb80afb87f9a9fb2, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 471490526}
     - targetCorrespondingSourceObject: {fileID: 1199344158202628824, guid: 37808e2c5d05c894bb80afb87f9a9fb2, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1324156103}
+      addedObject: {fileID: 1324156106}
+    - targetCorrespondingSourceObject: {fileID: 1199344158202628824, guid: 37808e2c5d05c894bb80afb87f9a9fb2, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1324156107}
     - targetCorrespondingSourceObject: {fileID: 178311466513336314, guid: 37808e2c5d05c894bb80afb87f9a9fb2, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1088259155}
+      addedObject: {fileID: 1088259158}
+    - targetCorrespondingSourceObject: {fileID: 178311466513336314, guid: 37808e2c5d05c894bb80afb87f9a9fb2, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1088259159}
     - targetCorrespondingSourceObject: {fileID: 3584467550293398788, guid: 37808e2c5d05c894bb80afb87f9a9fb2, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1975220260}
+      addedObject: {fileID: 1975220265}
+    - targetCorrespondingSourceObject: {fileID: 3584467550293398788, guid: 37808e2c5d05c894bb80afb87f9a9fb2, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1975220264}
+    - targetCorrespondingSourceObject: {fileID: 3584467550293398788, guid: 37808e2c5d05c894bb80afb87f9a9fb2, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1975220263}
     - targetCorrespondingSourceObject: {fileID: 6302566642244029272, guid: 37808e2c5d05c894bb80afb87f9a9fb2, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 303564720}
+      addedObject: {fileID: 303564723}
+    - targetCorrespondingSourceObject: {fileID: 6302566642244029272, guid: 37808e2c5d05c894bb80afb87f9a9fb2, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 303564724}
     - targetCorrespondingSourceObject: {fileID: 2629690667783047236, guid: 37808e2c5d05c894bb80afb87f9a9fb2, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1464549029}
+      addedObject: {fileID: 1464549032}
+    - targetCorrespondingSourceObject: {fileID: 2629690667783047236, guid: 37808e2c5d05c894bb80afb87f9a9fb2, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1464549033}
   m_SourcePrefab: {fileID: 100100000, guid: 37808e2c5d05c894bb80afb87f9a9fb2, type: 3}
 --- !u!1 &984795485 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2532119198470598175, guid: 37808e2c5d05c894bb80afb87f9a9fb2, type: 3}
   m_PrefabInstance: {fileID: 984795484}
   m_PrefabAsset: {fileID: 0}
---- !u!23 &984795486 stripped
-MeshRenderer:
-  m_CorrespondingSourceObject: {fileID: 5027603510086590300, guid: 37808e2c5d05c894bb80afb87f9a9fb2, type: 3}
-  m_PrefabInstance: {fileID: 984795484}
+--- !u!64 &984795496
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &984795493
+  m_GameObject: {fileID: 984795485}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -1451798351353561062, guid: 8cf55698570ddda4fbcb53fd9fae0eaf, type: 3}
+--- !u!114 &984795497
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -476,53 +505,50 @@ MonoBehaviour:
   m_GameObject: {fileID: 984795485}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Script: {fileID: 11500000, guid: ccce01767562f0442ab9ef2d31433765, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Delegates:
-  - eventID: 0
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 984795486}
-          m_TargetAssemblyTypeName: UnityEngine.Renderer, UnityEngine
-          m_MethodName: set_sharedMaterial
-          m_Mode: 2
-          m_Arguments:
-            m_ObjectArgument: {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Material, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-  - eventID: 1
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 984795486}
-          m_TargetAssemblyTypeName: UnityEngine.Renderer, UnityEngine
-          m_MethodName: set_sharedMaterial
-          m_Mode: 2
-          m_Arguments:
-            m_ObjectArgument: {fileID: 2100000, guid: 14b881e978318014ba6ae8aa1d399f66, type: 2}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Material, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
+--- !u!114 &984795498
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 984795485}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68be24c208a4a4e438e4cfb2279e9217, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  oldMaterial: {fileID: 2100000, guid: 277dee0df735df44f96fa2ea9517cd5c, type: 2}
+  newMaterial: {fileID: 2100000, guid: 8f4941b589f07784badc544cb7bc9522, type: 2}
 --- !u!1 &1088259151 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 178311466513336314, guid: 37808e2c5d05c894bb80afb87f9a9fb2, type: 3}
   m_PrefabInstance: {fileID: 984795484}
   m_PrefabAsset: {fileID: 0}
---- !u!23 &1088259153 stripped
-MeshRenderer:
-  m_CorrespondingSourceObject: {fileID: 4481308532825699193, guid: 37808e2c5d05c894bb80afb87f9a9fb2, type: 3}
-  m_PrefabInstance: {fileID: 984795484}
+--- !u!135 &1088259158
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1088259155
+  m_GameObject: {fileID: 1088259151}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 1.1786101
+  m_Center: {x: 0.39944428, y: -0.07824371, z: 1.1361262}
+--- !u!114 &1088259159
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -531,42 +557,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1088259151}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Script: {fileID: 11500000, guid: 68be24c208a4a4e438e4cfb2279e9217, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Delegates:
-  - eventID: 0
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1088259153}
-          m_TargetAssemblyTypeName: UnityEngine.Renderer, UnityEngine
-          m_MethodName: set_material
-          m_Mode: 2
-          m_Arguments:
-            m_ObjectArgument: {fileID: 2100000, guid: 14b881e978318014ba6ae8aa1d399f66, type: 2}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Material, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-  - eventID: 1
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1088259153}
-          m_TargetAssemblyTypeName: UnityEngine.Renderer, UnityEngine
-          m_MethodName: set_material
-          m_Mode: 2
-          m_Arguments:
-            m_ObjectArgument: {fileID: 2100000, guid: 277dee0df735df44f96fa2ea9517cd5c, type: 2}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Material, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
+  oldMaterial: {fileID: 2100000, guid: 277dee0df735df44f96fa2ea9517cd5c, type: 2}
+  newMaterial: {fileID: 2100000, guid: 14b881e978318014ba6ae8aa1d399f66, type: 2}
 --- !u!1 &1252364228
 GameObject:
   m_ObjectHideFlags: 0
@@ -640,12 +635,28 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 1199344158202628824, guid: 37808e2c5d05c894bb80afb87f9a9fb2, type: 3}
   m_PrefabInstance: {fileID: 984795484}
   m_PrefabAsset: {fileID: 0}
---- !u!23 &1324156101 stripped
-MeshRenderer:
-  m_CorrespondingSourceObject: {fileID: 5860923096649011862, guid: 37808e2c5d05c894bb80afb87f9a9fb2, type: 3}
-  m_PrefabInstance: {fileID: 984795484}
+--- !u!135 &1324156106
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1324156103
+  m_GameObject: {fileID: 1324156099}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 2.7975802
+  m_Center: {x: -0.06087464, y: 0.03366152, z: 1.8808901}
+--- !u!114 &1324156107
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -654,53 +665,38 @@ MonoBehaviour:
   m_GameObject: {fileID: 1324156099}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Script: {fileID: 11500000, guid: 68be24c208a4a4e438e4cfb2279e9217, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Delegates:
-  - eventID: 0
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1324156101}
-          m_TargetAssemblyTypeName: UnityEngine.Renderer, UnityEngine
-          m_MethodName: set_material
-          m_Mode: 2
-          m_Arguments:
-            m_ObjectArgument: {fileID: 2100000, guid: 14b881e978318014ba6ae8aa1d399f66, type: 2}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Material, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-  - eventID: 1
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1324156101}
-          m_TargetAssemblyTypeName: UnityEngine.Renderer, UnityEngine
-          m_MethodName: set_material
-          m_Mode: 2
-          m_Arguments:
-            m_ObjectArgument: {fileID: 2100000, guid: 277dee0df735df44f96fa2ea9517cd5c, type: 2}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Material, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
+  oldMaterial: {fileID: 2100000, guid: 277dee0df735df44f96fa2ea9517cd5c, type: 2}
+  newMaterial: {fileID: 2100000, guid: 14b881e978318014ba6ae8aa1d399f66, type: 2}
 --- !u!1 &1464549025 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2629690667783047236, guid: 37808e2c5d05c894bb80afb87f9a9fb2, type: 3}
   m_PrefabInstance: {fileID: 984795484}
   m_PrefabAsset: {fileID: 0}
---- !u!23 &1464549027 stripped
-MeshRenderer:
-  m_CorrespondingSourceObject: {fileID: 6879510299297109529, guid: 37808e2c5d05c894bb80afb87f9a9fb2, type: 3}
-  m_PrefabInstance: {fileID: 984795484}
+--- !u!135 &1464549032
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1464549029
+  m_GameObject: {fileID: 1464549025}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 1.2409278
+  m_Center: {x: -0.33351943, y: -0.031198747, z: 1.2418624}
+--- !u!114 &1464549033
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -709,42 +705,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1464549025}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Script: {fileID: 11500000, guid: 68be24c208a4a4e438e4cfb2279e9217, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Delegates:
-  - eventID: 0
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1464549027}
-          m_TargetAssemblyTypeName: UnityEngine.Renderer, UnityEngine
-          m_MethodName: set_material
-          m_Mode: 2
-          m_Arguments:
-            m_ObjectArgument: {fileID: 2100000, guid: 14b881e978318014ba6ae8aa1d399f66, type: 2}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Material, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-  - eventID: 1
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1464549027}
-          m_TargetAssemblyTypeName: UnityEngine.Renderer, UnityEngine
-          m_MethodName: set_material
-          m_Mode: 2
-          m_Arguments:
-            m_ObjectArgument: {fileID: 2100000, guid: 277dee0df735df44f96fa2ea9517cd5c, type: 2}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Material, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
+  oldMaterial: {fileID: 2100000, guid: 277dee0df735df44f96fa2ea9517cd5c, type: 2}
+  newMaterial: {fileID: 2100000, guid: 14b881e978318014ba6ae8aa1d399f66, type: 2}
 --- !u!1 &1542606780
 GameObject:
   m_ObjectHideFlags: 0
@@ -873,12 +838,7 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 3584467550293398788, guid: 37808e2c5d05c894bb80afb87f9a9fb2, type: 3}
   m_PrefabInstance: {fileID: 984795484}
   m_PrefabAsset: {fileID: 0}
---- !u!23 &1975220258 stripped
-MeshRenderer:
-  m_CorrespondingSourceObject: {fileID: 7586562800535359740, guid: 37808e2c5d05c894bb80afb87f9a9fb2, type: 3}
-  m_PrefabInstance: {fileID: 984795484}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1975220260
+--- !u!114 &1975220263
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -887,42 +847,44 @@ MonoBehaviour:
   m_GameObject: {fileID: 1975220256}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Script: {fileID: 11500000, guid: ccce01767562f0442ab9ef2d31433765, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Delegates:
-  - eventID: 0
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1975220258}
-          m_TargetAssemblyTypeName: UnityEngine.Renderer, UnityEngine
-          m_MethodName: set_material
-          m_Mode: 2
-          m_Arguments:
-            m_ObjectArgument: {fileID: 2100000, guid: 14b881e978318014ba6ae8aa1d399f66, type: 2}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Material, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-  - eventID: 1
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1975220258}
-          m_TargetAssemblyTypeName: UnityEngine.Renderer, UnityEngine
-          m_MethodName: set_material
-          m_Mode: 2
-          m_Arguments:
-            m_ObjectArgument: {fileID: 2100000, guid: 277dee0df735df44f96fa2ea9517cd5c, type: 2}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Material, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
+--- !u!135 &1975220264
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1975220256}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 2.5714998
+  m_Center: {x: -0.00000011920928, y: -0.00000049404457, z: 1.4226171}
+--- !u!114 &1975220265
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1975220256}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68be24c208a4a4e438e4cfb2279e9217, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  oldMaterial: {fileID: 2100000, guid: 277dee0df735df44f96fa2ea9517cd5c, type: 2}
+  newMaterial: {fileID: 2100000, guid: 14b881e978318014ba6ae8aa1d399f66, type: 2}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
